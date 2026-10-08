@@ -29,7 +29,7 @@ export default function Home() {
       <div className="steam steamTwo" aria-hidden="true" />
       <div className="steam steamThree" aria-hidden="true" />
       <div className="heroGlow" aria-hidden="true" />
-      <div className="heroCopy heritageCopy"><p className="eyebrow">A MANILA HEIRLOOM, HAND-BAKED DAILY</p><h1>The ultimate gift of<br/><em>culinary heritage.</em></h1><p className="lead">Meticulously crafted Buko Ube Pie by the Michelin-awarded owners of Cendrillon and Purple Yam Brooklyn. Now in Manila.</p><div className="heroActions"><button className="primary" onClick={()=>setCart(cart+1)}>RESERVE YOUR FRESH BATCH <span>→</span></button></div><div className="rating featuredLine"><b>●</b><span>As featured in The New York Times, Michelin Guide &amp; James Beard Foundation</span></div></div>
+      <div className="heroCopy heritageCopy"><p className="eyebrow">A MANILA HEIRLOOM, HAND-BAKED DAILY</p><h1>The ultimate gift of<br/><em>culinary heritage.</em></h1><p className="lead">Meticulously crafted Buko Ube Pie by the Michelin-awarded owners of Cendrillon and Purple Yam Brooklyn. Now in Manila.</p><div className="heroActions"><a className="primary" href={sitePath('/order')}>ORDER YOUR FRESH BATCH <span>→</span></a></div><div className="rating featuredLine"><b>●</b><span>As featured in The New York Times, Michelin Guide &amp; James Beard Foundation</span></div></div>
     </section>
     <section className="trustBar"><span>✦ Mini pies from ₱499</span><span>✦ Cookies from ₱50</span><span>✦ Box of 6 cookies ₱350</span><span>✦ Made with love</span></section>
     <section className="story purpleStory" id="story">

@@ -8,6 +8,7 @@ import './legacy.css';
 import './shop.css';
 import './checkout.css';
 import './orders.css';
+import './order.css';
 
 export const metadata: Metadata = {
   title: 'Purple Yam Buko Pie',
